@@ -1,0 +1,37 @@
+{
+  "name": "my-portfolio",
+  "homepage": "https://edwinkay.github.io/portafolio",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build && next export",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "lint": "next lint",
+    "deploy": "gh-pages -d out"
+  },
+  "keywords": [],
+  "author": "Edwin Cuetia",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@vercel/analytics": "^1.1.1",
+    "framer-motion": "^10.16.4",
+    "next": "^13.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "sharp": "^0.33.4",
+    "three": "^0.157.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^13.5.6",
+    "gh-pages": "^6.1.1",
+    "prettier": "^3.0.3"
+  }
+}
