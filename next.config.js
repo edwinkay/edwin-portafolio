@@ -7,8 +7,8 @@ module.exports = {
   output: 'export',
   reactStrictMode: true,
   swcMinify: true,
-  basePath: isProd ? '/portafolio' : '',
-  assetPrefix: isProd ? '/portafolio/' : '',
+  basePath: isProd ? '/edwin-portafolio' : '',
+  assetPrefix: isProd ? '/edwin-portafolio/' : '',
 };
 
 
