@@ -147,7 +147,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link >
               <Button
                 variant="ghost"
                 colorScheme="teal"
