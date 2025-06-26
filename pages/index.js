@@ -89,8 +89,16 @@ const Home = () => (
           Work experience
         </Heading>
         <BioSection>
+          <BioYear>2025</BioYear>
+          Griki: Web designer
+        </BioSection>
+        <BioSection>
           <BioYear>2024</BioYear>
-          Factor Clave: e-learning, Articulate 360
+          Cabildo Indigena Corinto, WordPress
+        </BioSection>
+        <BioSection>
+          <BioYear>2024</BioYear>
+          Factor Clave: e-learning, Articulate 360          
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
@@ -142,7 +150,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoMail />}
               >
-                edwinkaycut@gmail.com
+                edwin.cuetia88@gmail.com
               </Button>
             </Link>
           </ListItem>

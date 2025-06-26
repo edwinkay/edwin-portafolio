@@ -7,6 +7,7 @@ import thumbInkdrop from '../public/images/works/asomos.png'
 import thumbWalknote from '../public/images/works/licor.png'
 import thumbFourPainters from '../public/images/works/ujusa.png'
 import thumbMenkiki from '../public/images/works/ice.png'
+import thumbCorinto from '../public/images/works/corinto.png'
 
 const Works = () => (
   <Layout title="Projects">
@@ -16,6 +17,15 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="corinto"
+            title="Cabildo indegena de Corinto"
+            thumbnail={thumbCorinto}
+          >
+            aplication made in WordPress (DIVI) using Laravel, Valet and MySQL
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem id="asomos" title="Asomos" thumbnail={thumbInkdrop}>
             App designed in ionic and angular
@@ -30,16 +40,7 @@ const Works = () => (
             Desktop web application to manage sales inventory
           </WorkGridItem>
         </Section>
-
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="ujusa"
-            title="Ujusa Web"
-            thumbnail={thumbFourPainters}
-          >
-            aplication made in WordPress (DIVI) using Laravel, Valet and MySQL
-          </WorkGridItem>
-        </Section>
+        
         <Section delay={0.1}>
           <WorkGridItem id="iceCreamShop" thumbnail={thumbMenkiki} title="IceCreamShop">
             A simple Angular application to take ice cream orders

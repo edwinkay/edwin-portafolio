@@ -30,8 +30,8 @@ export const WorkGridItem = ({
 }) => {
   // Define la URL base
   let href;
-  if (id === 'ujusa') {
-    href = `https://ujusawesx.com.co/`;
+  if (id === 'corinto') {
+    href = `https://cabildodecorinto.com/`;
   } else {
     href = `https://edwinkay.github.io/${id}`;
   }
