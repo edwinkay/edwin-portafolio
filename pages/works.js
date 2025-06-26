@@ -5,7 +5,6 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbInkdrop from '../public/images/works/asomos.png'
 import thumbWalknote from '../public/images/works/licor.png'
-import thumbFourPainters from '../public/images/works/ujusa.png'
 import thumbMenkiki from '../public/images/works/ice.png'
 import thumbCorinto from '../public/images/works/corinto.png'
 
